@@ -1,0 +1,352 @@
+[Master]
+Implementation=2
+FontFace=TT Commons Medium
+FontHeight=-11
+FontWeight=500
+ZoomRatio=2
+[Settings]
+Name=
+RefreshPeriod=1000
+EmbeddedImage=
+PingAddr=
+[General]
+Sources=17
+Tables=0
+Layers=23
+[Source0]
+Name=CPU usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU usage
+[Source1]
+Name=CPU temperature
+Units=°C
+Format=
+Formula=
+Provider=HAL
+ID=CPU temperature
+[Source2]
+Name=CPU power
+Units=W
+Format=
+Formula=
+Provider=HAL
+ID=CPU power
+[Source3]
+Name=CPU clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU clock
+[Source4]
+Name=RAM usage
+Units=MB
+Format=
+Formula=
+Provider=HAL
+ID=RAM usage
+[Source5]
+Name=GPU1 clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 clock
+[Source6]
+Name=GPU1 memory clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 memory clock
+[Source7]
+Name=GPU1 temperature
+Units=°C
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 temperature
+[Source8]
+Name=GPU1 temperature 2
+Units=°C
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 temperature 2
+[Source9]
+Name=GPU1 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 usage
+[Source10]
+Name=GPU1 power
+Units=W
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 power
+[Source11]
+Name=GPU1 memory usage
+Units=MB
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 memory usage
+[Source12]
+Name=GPU1 fan speed
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 fan speed
+[Source13]
+Name=CPU Core Voltage (SVI2 TFN)
+Units=V
+Format=%.3f
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=2
+ReadingName=CPU Core Voltage (SVI2 TFN)
+[Source14]
+Name=GPU Busy
+Units=ms
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=8
+ReadingName=GPU Busy
+[Source15]
+Name=Framerate (Presented)
+Units=FPS
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=8
+ReadingName=Framerate (Presented)
+[Source16]
+Name=Framerate (Displayed)
+Units=FPS
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=8
+ReadingName=Framerate (Displayed)
+[Layer0]
+Name=
+Text=
+PositionX=0
+PositionY=58
+ExtentX=185
+ExtentY=116
+ExtentOrigin=0
+BgndColor=B51D1A1A
+[Layer1]
+Name=
+Text=RTX 4070 Ti
+PositionX=57
+PositionY=85
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+TextColor=76B924
+[Layer2]
+Name=
+Text=%GPU1 memory usage% MB
+PositionX=57
+PositionY=158
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+TextColor=D3D3D3
+[Layer3]
+Name=
+Text=Clock
+PositionX=2
+PositionY=100
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+TextColor=D3D3D3
+[Layer4]
+Name=
+Text=Temp
+PositionX=2
+PositionY=114
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+TextColor=D3D3D3
+[Layer5]
+Name=
+Text=Power
+PositionX=2
+PositionY=129
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+TextColor=D3D3D3
+[Layer6]
+Name=
+Text=Usage
+PositionX=2
+PositionY=143
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+TextColor=D3D3D3
+[Layer7]
+Name=
+Text=Memory
+PositionX=2
+PositionY=158
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+TextColor=D3D3D3
+[Layer8]
+Name=
+Text=<FR> FPS
+PositionX=124
+PositionY=60
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=150
+TextColor=D3D3D3
+[Layer9]
+Name=
+Text=R7 7800X3D
+PositionX=128
+PositionY=85
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+TextColor=EA7C24
+[Layer10]
+Name=
+Text=%RAM usage% MB
+PositionX=134
+PositionY=158
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+TextColor=D3D3D3
+[Layer11]
+Name=
+Text=%GPU1 usage%% | %GPU1 fan speed%%
+PositionX=57
+PositionY=143
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+TextColor=D3D3D3
+[Layer12]
+Name=
+Text=%GPU1 power% W
+PositionX=57
+PositionY=129
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+TextColor=D3D3D3
+[Layer13]
+Name=
+Text=%GPU1 temperature%°C | %GPU1 temperature 2%°C
+PositionX=57
+PositionY=114
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+TextColor=D3D3D3
+[Layer14]
+Name=
+Text=%GPU1 clock% MHz
+PositionX=57
+PositionY=100
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+TextColor=D3D3D3
+[Layer15]
+Name=
+Text=%CPU temperature% °C
+PositionX=154
+PositionY=114
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+TextColor=D3D3D3
+[Layer16]
+Name=
+Text=%CPU usage% %
+PositionX=156
+PositionY=144
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+TextColor=D3D3D3
+[Layer17]
+Name=
+Text=%CPU power% W
+PositionX=154
+PositionY=129
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+TextColor=D3D3D3
+[Layer18]
+Name=
+Text=%CPU clock% MHz
+PositionX=131
+PositionY=100
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+TextColor=D3D3D3
+[Layer19]
+Name=
+Text=<G=Frametime>
+PositionX=0
+PositionY=59
+ExtentX=-16
+ExtentY=-2
+ExtentOrigin=0
+TextColor=D3D3D3
+[Layer20]
+Name=
+Text=<API>
+PositionX=3
+PositionY=60
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+TextColor=D3D3D3
+[Layer21]
+Name=
+Text=<FT> ms
+PositionX=2
+PositionY=86
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=70
+TextColor=D3D3D3
+[Layer22]
+Name=
+Text=%GPU Busy% ms
+PositionX=29
+PositionY=86
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=70
+TextColor=D3D3D3
