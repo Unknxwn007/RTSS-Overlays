@@ -2,7 +2,6 @@
 A collection of overlays for Rivatuner Statistics Server 
 
 ## 💾 [Download Section](https://github.com/Unknxwn007/RTSS-Overlays/releases)
-## 📷 [Preview Images](https://github.com/Unknxwn007/RTSS-Overlays/tree/main/Previews)
 
 ## 📖 Installation Guide
 **on the layout menu select Load!!**
