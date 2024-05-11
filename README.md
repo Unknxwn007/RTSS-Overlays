@@ -1,14 +1,13 @@
 # RTSS Overlays
 A collection of overlays for Rivatuner Statistics Server 
 
-## Information
-All overlays are scaled to a 2560x1440 resolution & the fonts are not included.
+## 💾 [Download Section](https://github.com/Unknxwn007/RTSS-Overlays/releases)
+## 📷 [Preview Images](https://github.com/Unknxwn007/RTSS-Overlays/tree/main/Previews)
 
-### Screenshots
-[Download](https://github.com/Unknxwn007/RTSS-Overlays/releases/tag/simple) - Font: TT Commons Medium
-<br>
-![Simple](https://i.imgur.com/KtXMxK8.png)
+## Installation Guide
+**on the layout menu select Load!!**
+![awtgre](https://i.imgur.com/1TL59dT.png)
 
-[Download](https://github.com/Unknxwn007/RTSS-Overlays/releases/tag/advanced) - Font: TT Commons Medium
-<br>
-![Advanced](https://i.imgur.com/k0hTVcb.png)
+### Font Information
+Simple & Regular use TT Commons Medium \
+Advanced uses TT Commons Regular
